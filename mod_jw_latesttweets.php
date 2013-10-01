@@ -1,6 +1,6 @@
 <?php
 /**
- * @version		1.3
+ * @version		1.4
  * @package		Latest Tweets (module) for Joomla! 1.5 & 2.5
  * @author    JoomlaWorks - http://www.joomlaworks.net
  * @copyright	Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.
@@ -12,8 +12,8 @@ defined('_JEXEC') or die('Restricted access');
 
 // JoomlaWorks reference parameters
 $mod_name               = "mod_jw_latesttweets";
-$mod_copyrights_start   = "\n\n<!-- JoomlaWorks \"Latest Tweets\" Module (v1.3) starts here -->\n";
-$mod_copyrights_end     = "\n<!-- JoomlaWorks \"Latest Tweets\" Module (v1.3) ends here -->\n\n";
+$mod_copyrights_start   = "\n\n<!-- JoomlaWorks \"Latest Tweets\" Module (v1.4) starts here -->\n";
+$mod_copyrights_end     = "\n<!-- JoomlaWorks \"Latest Tweets\" Module (v1.4) ends here -->\n\n";
 
 // API
 jimport('joomla.filesystem.file');

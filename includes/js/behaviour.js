@@ -1,5 +1,5 @@
 /**
- * @version		1.3
+ * @version		1.4
  * @package		Latest Tweets (module) for Joomla! 1.5 & 2.5
  * @author    JoomlaWorks - http://www.joomlaworks.net
  * @copyright	Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.
@@ -60,7 +60,8 @@ var jwLatestTweets = {
 		window[jwLtCallback] = function(response) {
 			responseContainer.tempId = [response];
 		};
-		var remoteScript = this.getTwitterJSON('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='+el.screen_name+'&count='+el.count+'&callback='+el.callback);
+		//var remoteScript = this.getTwitterJSON('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='+el.screen_name+'&count='+el.count+'&callback='+el.callback);
+		var remoteScript = this.getTwitterJSON('http://json2jsonp.com/?callback='+el.callback+'&url=http%3A%2F%2Ftwitcher.steer.me%2Fuser_timeline%2F'+el.screen_name);		
 		var head = this.head();
 		head.appendChild(remoteScript);
 		remoteScript.onload = function() {

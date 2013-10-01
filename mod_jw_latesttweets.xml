@@ -2,12 +2,12 @@
 <install type="module" version="1.5.0" method="upgrade">
 	<name>Latest Tweets (by JoomlaWorks)</name>
 	<author>JoomlaWorks</author>
-	<authorEmail>contact@joomlaworks.net</authorEmail>
+	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
 	<authorUrl>www.joomlaworks.net</authorUrl>
 	<copyright>Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.</copyright>
-	<creationDate>October 30th, 2012</creationDate>
+	<creationDate>October 2nd, 2013</creationDate>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<version>1.3</version>
+	<version>1.4</version>
 	<description>MOD_JW_LT_XML_DESC</description>
 	<params>
 		<param name="moduleclass_sfx" type="text" default="" label="MOD_JW_LT_MODULE_CLASS_SUFFIX" description="MOD_JW_LT_MODULE_CLASS_SUFFIX_DESC" />

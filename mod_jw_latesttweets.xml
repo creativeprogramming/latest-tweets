@@ -32,7 +32,6 @@
 	</config>
 	<files>
 		<filename module="mod_jw_latesttweets">mod_jw_latesttweets.php</filename>
-		<filename>index.html</filename>
 		<folder>includes</folder>
 		<folder>tmpl</folder>
 	</files>

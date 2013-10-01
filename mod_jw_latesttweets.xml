@@ -40,4 +40,7 @@
 		<language tag="en-GB">language/en-GB/en-GB.mod_jw_latesttweets.ini</language>
 		<language tag="en-GB">language/en-GB/en-GB.mod_jw_latesttweets.sys.ini</language>
 	</languages>
+	<updateservers>
+		<server type="extension" priority="1" name="Latest Tweets">http://www.joomlaworks.net/updates/jw_latesttweets.xml</server>
+	</updateservers>
 </extension>

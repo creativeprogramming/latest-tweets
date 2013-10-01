@@ -1,7 +1,7 @@
 <?php
 /**
- * @version		1.4
- * @package		Latest Tweets (module) for Joomla! 1.5 & 2.5
+ * @version		2.0
+ * @package		Latest Tweets (module) for Joomla! 2.5 & 3.x
  * @author    JoomlaWorks - http://www.joomlaworks.net
  * @copyright	Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.
  * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html

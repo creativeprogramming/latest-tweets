@@ -16,7 +16,7 @@ View a demo of the module here (frontpage, left column): http://demo.joomlaworks
 
 ## REQUIREMENTS
 - Active Twitter account
-- Joomla! version 1.5 to 2.5
+- Joomla! version 2.5 or newer
 
 
 ## LEARN MORE

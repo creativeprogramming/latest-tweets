@@ -71,7 +71,9 @@ var jwLatestTweets = {
 	},
 	twCB: function(tweets,el) {
 	  var statusHTML = [];
-	  for(var i=0; i<tweets.length; i++) {
+	  var tweetsCount = el.count;
+	  //for(var i=0; i<tweets.length; i++) {
+	  for(var i=0; i<tweetsCount; i++) {
 	    var username = tweets[i].user.screen_name;
 	    var avatar = tweets[i].user.profile_image_url;
 	    var status = tweets[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {

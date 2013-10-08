@@ -5,9 +5,9 @@
 	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
 	<authorUrl>www.joomlaworks.net</authorUrl>
 	<copyright>Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.</copyright>
-	<creationDate>October 2nd, 2013</creationDate>
+	<creationDate>October 8th, 2013</creationDate>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<version>2.0</version>
+	<version>2.1</version>
 	<description>MOD_JW_LT_XML_DESC</description>
 	<config>
 		<fields name="params">
@@ -19,6 +19,7 @@
 				</field>
 				<field name="ltTimeout" type="text" default="2" label="MOD_JW_LT_PRELOADER_TIMEOUT_IN_SECONDS" description="MOD_JW_LT_THE_TIME_THE_PRELOADER_WILL_DISPLAY_BEFORE_SHOWING_THE_TWEETS_LIST" />
 				<field name="ltUsername" type="text" default="" label="MOD_JW_LT_TWITTER_USERNAME" description="MOD_JW_LT_YOUR_TWITTER_USERNAME" />
+				<field name="ltKey" type="text" default="" label="MOD_JW_LT_TWITTER_KEY" description="MOD_JW_LT_TWITTER_KEY_DESC" />
 				<field name="ltCount" type="text" default="5" label="MOD_JW_LT_TWEETS_COUNT" description="MOD_JW_LT_THE_NUMBER_OF_TWEETS_TO_FETCH_EVERY_TIME" />
 			</fieldset>
 			<fieldset name="advanced">

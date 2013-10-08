@@ -1,6 +1,6 @@
 <?php
 /**
- * @version		2.0
+ * @version		2.1
  * @package		Latest Tweets (module) for Joomla! 2.5 & 3.x
  * @author    JoomlaWorks - http://www.joomlaworks.net
  * @copyright	Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.
@@ -12,8 +12,8 @@ defined('_JEXEC') or die('Restricted access');
 
 // JoomlaWorks reference parameters
 $mod_name               = "mod_jw_latesttweets";
-$mod_copyrights_start   = "\n\n<!-- JoomlaWorks \"Latest Tweets\" Module (v2.0) starts here -->\n";
-$mod_copyrights_end     = "\n<!-- JoomlaWorks \"Latest Tweets\" Module (v2.0) ends here -->\n\n";
+$mod_copyrights_start   = "\n\n<!-- JoomlaWorks \"Latest Tweets\" Module (v2.1) starts here -->\n";
+$mod_copyrights_end     = "\n<!-- JoomlaWorks \"Latest Tweets\" Module (v2.1) ends here -->\n\n";
 
 // API
 jimport('joomla.filesystem.file');
@@ -29,6 +29,7 @@ $moduleclass_sfx 	= $params->get('moduleclass_sfx','');
 $ltCSSStyling			= (int) $params->get('ltCSSStyling',1);
 $ltTimeout				= (int) $params->get('ltTimeout',2) * 1000;
 $ltUsername 			= strtolower(trim($params->get('ltUsername','joomlaworks')));
+$ltKey						= $params->get('ltKey');
 $ltCount			 		= (int) $params->get('ltCount',5);
 
 // Output some Twitter API stuff to the document's head
@@ -45,6 +46,7 @@ $headScripts = "
 		};
 		jwLatestTweets.fetchTweets({
 			screen_name: '".$ltUsername."',
+			key: '".$ltKey."',
 			count: '".$ltCount."',
 			callback: 'jwLtCb".$module->id."',
 			moduleID: 'ltUpdateId".$module->id."',

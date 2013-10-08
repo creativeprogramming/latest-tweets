@@ -56,7 +56,7 @@ $headScripts = "
 ";
 
 // Append JS to the document's head
-$document->addScript($siteUrl.'/modules/mod_jw_latesttweets/includes/js/behaviour.js');
+$document->addScript($siteUrl.'/modules/mod_jw_latesttweets/includes/js/behaviour.js?v=2.1');
 $document->addScriptDeclaration($headScripts);
 
 // Append CSS to the document's head
